@@ -11,6 +11,7 @@ iOS Theme:
       # Header:
       app-header-background-color: var(--primary-background-color)
       app-header-text-color: rgb(28, 28, 30)
+      app-header-selection-bar-color: var(--primary-color)
       # Main Interface Colors
       primary-color: rgb(0, 122, 255)
       light-primary-color: var(--primary-color)
@@ -53,8 +54,9 @@ iOS Theme:
       label-badge-gray: rgb(72, 72, 74)
       # Cards
       card-background-color: rgb(255, 255, 255)
-      ha-card-border-radius: "10px"
-      ha-card-box-shadow: none
+      ha-card-background: rgb(255, 255, 255)
+      ha-card-border-color: none
+      ha-card-border-width: 0px
       paper-dialog-background-color: var(--card-background-color)
       paper-listbox-background-color: var(--card-background-color)
       paper-card-background-color: var(--card-background-color)
@@ -97,6 +99,7 @@ iOS Theme:
       # Header:
       app-header-background-color: var(--primary-background-color)
       app-header-text-color: rgb(229, 229, 234)
+      app-header-selection-bar-color: var(--primary-color)
       # Main Interface Colors
       primary-color: rgb(10, 132, 255)
       light-primary-color: var(--primary-color)
@@ -139,8 +142,9 @@ iOS Theme:
       label-badge-gray: rgb(72, 72, 74)
       # Cards
       card-background-color: rgb(28, 28, 30)
-      ha-card-border-radius: "10px"
-      ha-card-box-shadow: none
+      ha-card-background: rgb(28, 28, 30)
+      ha-card-border-color: none
+      ha-card-border-width: 0px
       paper-dialog-background-color: var(--card-background-color)
       paper-listbox-background-color: var(--card-background-color)
       paper-card-background-color: var(--card-background-color)
