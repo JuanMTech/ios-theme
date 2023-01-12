@@ -9,34 +9,33 @@ iOS Theme:
   modes:
     light:
       # Header:
-      app-header-background-color: var(--primary-background-color)
-      app-header-text-color: rgb(28, 28, 30)
+      app-header-background-color: rgb(242, 242, 247)
+      app-header-text-color: var(--primary-text-color)
       app-header-selection-bar-color: var(--primary-color)
+      app-header-edit-background-color: rgb(199, 199, 204)
       # Main Interface Colors
       primary-color: rgb(0, 122, 255)
-      light-primary-color: var(--primary-color)
       primary-background-color: rgb(242, 242, 247)
-      secondary-background-color: var(--primary-background-color)
+      secondary-background-color: rgb(222, 222, 227)
       divider-color: rgb(229, 229, 234)
       accent-color: rgb(0, 122, 255)
       # Text
       primary-text-color: rgb(28, 28, 30)
       secondary-text-color: rgb(142, 142, 147)
-      text-primary-color: rgb(255, 255, 255)
+      text-primary-color: var(--primary-text-color)
       disabled-text-color: rgb(199, 199, 204)
       # Sidebar Menu
       sidebar-icon-color: rgb(58, 58, 30)
       sidebar-text-color: var(--primary-text-color)
       sidebar-background-color: rgb(255, 255, 255)
-      sidebar-selected-background-color: var(--primary-background-color)
       sidebar-selected-icon-color: rgb(0, 122, 255)
       sidebar-selected-text-color: var(--sidebar-selected-icon-color))
       # Buttons
       paper-item-icon-color: rgb(58, 58, 30)
       paper-item-icon-active-color: rgb(0, 122, 255)
       # States and Badges
-      state-icon-color: rgb(0, 122, 255)
-      state-icon-active-color: rgb(58, 58, 30)
+      state-icon-color: var(--paper-item-icon-color)
+      state-icon-active-color: var(--paper-item-icon-active-color)
       state-icon-unavailable-color: var(--disabled-text-color)
       # Sliders
       paper-slider-knob-color: rgb(0, 122, 255)
@@ -45,8 +44,8 @@ iOS Theme:
       paper-slider-active-color: rgb(0, 122, 255)
       paper-slider-secondary-color: var(--paper-slider-active-color)
       # Labels
-      label-badge-background-color: rgb(28, 28, 30)
-      label-badge-text-color: rgb(242, 242, 247)
+      label-badge-background-color: var(--secondary-background-color)
+      label-badge-text-color: var(--primary-text-color)
       label-badge-red: rgb(255, 69, 58)
       label-badge-green: rgb(52, 199, 89)
       label-badge-blue: rgb(0, 122, 255)
@@ -55,8 +54,7 @@ iOS Theme:
       # Cards
       card-background-color: rgb(255, 255, 255)
       ha-card-background: rgb(255, 255, 255)
-      ha-card-border-color: none
-      ha-card-border-width: 0px
+      ha-card-border-color: rgb(235, 235, 235)
       paper-dialog-background-color: var(--card-background-color)
       paper-listbox-background-color: var(--card-background-color)
       paper-card-background-color: var(--card-background-color)
@@ -80,7 +78,10 @@ iOS Theme:
       mdc-theme-surface: var(--primary-background-color)
       # Pre/Code
       markdown-code-background-color: rgb(242, 242, 247)
+      code-editor-background-color: rgb(242, 242, 247)
       # Checkboxes
+      mdc-checkbox-unchecked-color: rgb(191, 191, 191)
+      mdc-checkbox-disable-color: var(--disabled-text-color)
       mdc-select-fill-color: rgb(255, 255, 255)
       mdc-select-ink-color: var(--primary-text-color)
       mdc-select-label-ink-color: var(--secondary-text-color)
@@ -94,15 +95,18 @@ iOS Theme:
       input-label-ink-color: var(--secondary-text-color)
       input-idle-line-color: var(--primary-text-color)
       input-hover-line-color: var(--accent-color)
+      #RGB
+      rgb-primary-text-color: 28, 28, 30
+      rgb-primary-color: 28, 28, 30
 #
     dark:
       # Header:
-      app-header-background-color: var(--primary-background-color)
+      app-header-background-color: rgb(0, 0, 0)
       app-header-text-color: rgb(229, 229, 234)
       app-header-selection-bar-color: var(--primary-color)
+      app-header-edit-background-color: rgb(72, 72, 74)
       # Main Interface Colors
       primary-color: rgb(10, 132, 255)
-      light-primary-color: var(--primary-color)
       primary-background-color: rgb(0, 0, 0)
       secondary-background-color: rgb(44, 44, 46)
       divider-color: rgb(44, 44, 46)
@@ -122,9 +126,10 @@ iOS Theme:
       # Buttons
       paper-item-icon-color: rgb(174, 174, 178)
       paper-item-icon-active-color: rgb(10, 132, 255)
+      mdc-button-outline-color: rgb(10, 132, 255)
       # States and Badges
-      state-icon-color: rgb(10, 132, 255)
-      state-icon-active-color: rgb(174, 174, 178)
+      state-icon-color: var(--paper-item-icon-color)
+      state-icon-active-color: var(--paper-item-icon-active-color)
       state-icon-unavailable-color: var(--disabled-text-color)
       # Sliders
       paper-slider-knob-color: rgb(242, 242, 247)
@@ -133,8 +138,8 @@ iOS Theme:
       paper-slider-active-color: rgb(10, 132, 255)
       paper-slider-secondary-color: var(--paper-slider-active-color)
       # Labels
-      label-badge-background-color: rgb(28, 28, 30)
-      label-badge-text-color: rgb(242, 242, 247)
+      label-badge-background-color: var(--secondary-background-color)
+      label-badge-text-color: var(--primary-text-color)
       label-badge-red: rgb(255, 69, 58)
       label-badge-green: rgb(48, 209, 88)
       label-badge-blue: rgb(10, 132, 255)
@@ -143,8 +148,7 @@ iOS Theme:
       # Cards
       card-background-color: rgb(28, 28, 30)
       ha-card-background: rgb(28, 28, 30)
-      ha-card-border-color: none
-      ha-card-border-width: 0px
+      ha-card-border-color: rgb(38, 38, 30)
       paper-dialog-background-color: var(--card-background-color)
       paper-listbox-background-color: var(--card-background-color)
       paper-card-background-color: var(--card-background-color)
@@ -168,6 +172,7 @@ iOS Theme:
       mdc-theme-surface: var(--secondary-background-color)
       # Pre/Code
       markdown-code-background-color: rgb(58, 58, 60)
+      code-editor-background-color: rgb(58, 58, 60)
       # Checkboxes
       mdc-checkbox-unchecked-color: rgb(174, 174, 178)
       mdc-checkbox-disable-color: var(--disabled-text-color)
@@ -184,3 +189,6 @@ iOS Theme:
       input-label-ink-color: var(--secondary-text-color)
       input-idle-line-color: var(--primary-text-color)
       input-hover-line-color: var(--accent-color)
+      #RGB
+      rgb-primary-text-color: 242, 242, 247
+      rgb-primary-color: 242, 242, 247
