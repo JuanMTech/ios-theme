@@ -98,6 +98,16 @@ iOS Theme:
       #RGB
       rgb-primary-text-color: 28, 28, 30
       rgb-primary-color: 28, 28, 30
+      rgb-accent-color: 0, 122, 255
+      rgb-state-switch-color: var(--rgb-accent-color)
+      rgb-state-light-color: var(--rgb-accent-color)
+      rgb-state-fan-color: var(--rgb-accent-color)
+      rgb-state-script-color: var(--rgb-accent-color)
+      rgb-state-vacuum-color: var(--rgb-accent-color)
+      rgb-state-remote-color: var(--rgb-accent-color)
+      rgb-state-input-boolean-color: var(--rgb-accent-color)
+      rgb-state-humidifier-color: var(--rgb-accent-color)
+      rgb-state-cover-color: var(--rgb-accent-color)
 #
     dark:
       # Header:
@@ -192,3 +202,13 @@ iOS Theme:
       #RGB
       rgb-primary-text-color: 242, 242, 247
       rgb-primary-color: 242, 242, 247
+      rgb-accent-color: 10, 132, 255
+      rgb-state-switch-color: var(--rgb-accent-color)
+      rgb-state-light-color: var(--rgb-accent-color)
+      rgb-state-fan-color: var(--rgb-accent-color)
+      rgb-state-script-color: var(--rgb-accent-color)
+      rgb-state-vacuum-color: var(--rgb-accent-color)
+      rgb-state-remote-color: var(--rgb-accent-color)
+      rgb-state-input-boolean-color: var(--rgb-accent-color)
+      rgb-state-humidifier-color: var(--rgb-accent-color)
+      rgb-state-cover-color: var(--rgb-accent-color)
